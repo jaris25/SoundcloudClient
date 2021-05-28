@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AppSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="AppSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SoundCloud.API.Client" Version="1.0.0.5" />
+  </ItemGroup>
+
+</Project>
